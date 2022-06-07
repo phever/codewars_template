@@ -13,6 +13,8 @@ def distinct(seq):
 if __name__ == '__main__':
     print("Running tests! Output is a little condensed, but "
           "should be readable")
-    import tests
+    import tests  # inline import
+    # note this definitely isn't best practices, you should be running the
+    # tests.py file directly, but this is for convenience
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
