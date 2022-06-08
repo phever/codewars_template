@@ -1,5 +1,5 @@
 import codewars_test as test
-from main import distinct
+from solution import distinct
 
 
 @test.describe("Fixed Tests")

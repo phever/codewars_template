@@ -1,7 +1,3 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 # USING https://www.codewars.com/kata/57a5b0dfcf1fa526bb000118/train/python
 # AS THE PRELOADED KATA
 def distinct(seq):
@@ -9,12 +5,11 @@ def distinct(seq):
     pass
 
 
-# Press the green button in the gutter to run the script.
+# if __name__ == '__main__' is True when this module/file is ran
+# Its better practice to just run the tests.py file
 if __name__ == '__main__':
     print("Running tests! Output is a little condensed, but "
           "should be readable")
     import tests  # inline import
     # note this definitely isn't best practices, you should be running the
     # tests.py file directly, but this is for convenience
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
